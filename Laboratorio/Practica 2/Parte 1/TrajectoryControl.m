@@ -1,4 +1,9 @@
+clear all;
 N=1;
+
+x0=0;
+y0=0;
+th0=0;
 for i=1:N
     %Tiempo de muestreo
     Ts=100e-3
