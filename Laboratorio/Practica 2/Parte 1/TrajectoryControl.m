@@ -17,13 +17,14 @@ for i=1:N
     y=salida_y.signals.values;
     figure;
     plot(x,y);
-    %grid on;
+%     grid on;
     hold on;
     x1=salida_x_g.signals.values;
     y1=salida_y_g.signals.values;
-    %figure;
+%     figure;
     plot(x1,y1);
-    %grid on;
+%     grid on;
+    legend("Trajectory generation","Controlador Borroso");
     hold off;
     grid on;
     
