@@ -1,9 +1,9 @@
 clear all;
 N=1;
 
-x0=0;
-y0=0;
-th0=0;
+x_0=0.2;
+y_0=0;
+th_0=0;
 for i=1:N
     %Tiempo de muestreo
     Ts=100e-3
@@ -17,6 +17,15 @@ for i=1:N
     y=salida_y.signals.values;
     figure;
     plot(x,y);
+    %grid on;
+    hold on;
+    x1=salida_x_g.signals.values;
+    y1=salida_y_g.signals.values;
+    %figure;
+    plot(x1,y1);
+    %grid on;
+    hold off;
     grid on;
-    hold on; 
+    
+
 end
