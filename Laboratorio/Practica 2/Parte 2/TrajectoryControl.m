@@ -10,8 +10,10 @@ for i=1:N
     % Referencia x-y de posicion
     refx=10*rand-5;
     refy=10*rand-5;
+    obsx=1;
+    obsy=0;
     % Ejecutar Simulacion
-    sim('PositionControl.slx')
+    sim('EvitarObstaculo.slx')
     % Mostrar
     x=salida_x.signals.values;
     y=salida_y.signals.values;
@@ -30,3 +32,5 @@ for i=1:N
     
 
 end
+    
+
