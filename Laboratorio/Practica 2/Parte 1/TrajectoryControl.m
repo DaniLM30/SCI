@@ -1,8 +1,8 @@
 clear all;
 N=1;
 
-x_0=0.2;
-y_0=0;
+x_0=2;
+y_0=1;
 th_0=0;
 for i=1:N
     %Tiempo de muestreo
